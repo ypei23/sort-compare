@@ -139,6 +139,9 @@ and copy/paste the resulting table into this README file below this line.
 |0.01 | 0.20 |0.09 |
 |0.02 | 0.39 |0.20 |
 |0.04 | 0.93 |0.44 |
+
+
+
 You should observe that python's built-in sort function is 10-100x faster than yours.
 All functions have the same wort-case asymptotic complexity (i.e. $\Theta(n \log n)$),
 but python's built-in sorting function uses lots of optimization tricks to achieve this extra speedup.
