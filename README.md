@@ -244,15 +244,15 @@ Copy/paste the table into the README file below this line.
 |0.00 | 0.00 |0.00 |
 |0.00 | 0.00 |0.00 |
 |0.00 | 0.00 |0.00 |
-|0.00 | 0.00 |0.00 |
+|0.00 | 0.01 |0.00 |
 |0.00 | 0.00 |0.00 |
 |0.00 | 0.01 |0.00 |
-|0.00 | 0.02 |0.01 |
-|0.00 | 0.05 |0.02 |
-|0.00 | 0.09 |0.05 |
-|0.01 | 0.20 |0.09 |
-|0.02 | 0.39 |0.20 |
-|0.04 | 0.93 |0.44 | 
+|0.00 | 0.01 |0.01 |
+|0.00 | 0.03 |0.01 |
+|0.00 | 0.07 |0.03 |
+|0.00 | 0.14 |0.06 |
+|0.00 | 0.30 |0.14 |
+|0.00 | 0.55 |0.30 |
 
 You should notice that the built-in `sorted` function ran much faster on this input,
 but your `merge_sorted` and `quick_sorted` functions have essentially the same runtimes.
