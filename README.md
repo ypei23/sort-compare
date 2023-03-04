@@ -120,6 +120,27 @@ $ python3 runtimes.py --max_x=22
 and copy/paste the resulting table into this README file below this line.
 
 <!-- add the table here -->
+|`timsort`| `merge_sorted`|`quick_sorted`|
+| -------------- | ------------------------- | --------------------- |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.01 |0.00 |
+|0.00 | 0.02 |0.01 |
+|0.00 | 0.05 |0.02 |
+|0.00 | 0.09 |0.05 |
+|0.01 | 0.20 |0.09 |
+|0.02 | 0.39 |0.20 |
+|0.04 | 0.93 |0.44 |
+
+
 
 You should observe that python's built-in sort function is 10-100x faster than yours.
 All functions have the same wort-case asymptotic complexity (i.e. $\Theta(n \log n)$),
@@ -213,6 +234,25 @@ then rerun the command above to generate a markdown table of runtimes.
 Copy/paste the table into the README file below this line.
 
 <!-- add the table here -->
+|`timsort`| `merge_sorted`|`quick_sorted`|
+| -------------- | ------------------------- | --------------------- |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.00 |0.00 |
+|0.00 | 0.01 |0.00 |
+|0.00 | 0.02 |0.01 |
+|0.00 | 0.05 |0.02 |
+|0.00 | 0.09 |0.05 |
+|0.01 | 0.20 |0.09 |
+|0.02 | 0.39 |0.20 |
+|0.04 | 0.93 |0.44 | 
 
 You should notice that the built-in `sorted` function ran much faster on this input,
 but your `merge_sorted` and `quick_sorted` functions have essentially the same runtimes.
